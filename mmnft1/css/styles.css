@@ -11483,39 +11483,41 @@ header.masthead h1, header.masthead .h1 {
 
 
 
-
-
 .offer {
-  display: none;
-}
-
-.hover1:hover + .offer {
-  display: block;
+ opacity: 0;
   color: white;
   font-family: Outfit, sans-serif;
   letter-spacing: .1rem;
   font-size: 1rem;
   line-height: 140%;
   font-weight: 500;
-  position:relative;
+  position: relative;
   top: -34vh;
+ 
 }
 
-.refuse {
-  display: none;
+.hover1:hover + .offer {
+  opacity: 1;
+ 
 }
 
-.hover2:hover + .refuse {
-  display: block;
+.refuse{
+  opacity: 0;
   color: #ae0000;
   font-family: Outfit, sans-serif;
   letter-spacing: .1rem;
   font-size: 1rem;
   line-height: 140%;
   font-weight: 500;
-  position:relative;
+  position: relative;
   text-align: center;
   top: -20px
+   
+}
+
+.hover2:hover + .refuse  {
+  opacity: 1;
+
 }
 
 #active1{
