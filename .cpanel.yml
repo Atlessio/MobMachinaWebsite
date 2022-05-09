@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mobmknoy/repositories/MobMachinaWebsite
+    - /bin/cp -R * $DEPLOYPATH
