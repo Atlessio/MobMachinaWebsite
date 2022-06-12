@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/mobmknoy/public_html
-    - /bin/cp -R * $DEPLOYPATH
